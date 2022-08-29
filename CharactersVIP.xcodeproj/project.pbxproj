@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4933E3A72872309100099949 /* CharactersMVPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933E3A62872309100099949 /* CharactersMVPApp.swift */; };
+		4933E3A72872309100099949 /* CharactersVIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933E3A62872309100099949 /* CharactersVIPApp.swift */; };
 		4933E3A92872309100099949 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933E3A82872309100099949 /* CharactersView.swift */; };
 		4933E3AB2872309200099949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4933E3AA2872309200099949 /* Assets.xcassets */; };
 		4933E3AE2872309200099949 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4933E3AD2872309200099949 /* Preview Assets.xcassets */; };
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		4933E3A32872309100099949 /* characters-mvp-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "characters-mvp-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4933E3A62872309100099949 /* CharactersMVPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersMVPApp.swift; sourceTree = "<group>"; };
+		4933E3A62872309100099949 /* CharactersVIPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersVIPApp.swift; sourceTree = "<group>"; };
 		4933E3A82872309100099949 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
 		4933E3AA2872309200099949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4933E3AD2872309200099949 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				4933E3BA28723A5500099949 /* Modules */,
-				4933E3A52872309100099949 /* CharactersMVPApp */,
+				4933E3A52872309100099949 /* CharactersVIPApp */,
 				4933E3A42872309100099949 /* Products */,
 				4933E3BC28723A8B00099949 /* Frameworks */,
 			);
@@ -74,7 +74,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4933E3A52872309100099949 /* CharactersMVPApp */ = {
+		4933E3A52872309100099949 /* CharactersVIPApp */ = {
 			isa = PBXGroup;
 			children = (
 				4933E3CA2872549E00099949 /* Extensions */,
@@ -83,7 +83,7 @@
 				49AEF19128BD1302009D3AB5 /* Resources */,
 				4933E3AC2872309200099949 /* Preview Content */,
 			);
-			path = CharactersMVPApp;
+			path = CharactersVIPApp;
 			sourceTree = "<group>";
 		};
 		4933E3AC2872309200099949 /* Preview Content */ = {
@@ -185,7 +185,7 @@
 		49AEF19228BD130D009D3AB5 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				4933E3A62872309100099949 /* CharactersMVPApp.swift */,
+				4933E3A62872309100099949 /* CharactersVIPApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -193,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4933E3A22872309100099949 /* CharactersMVP */ = {
+		4933E3A22872309100099949 /* CharactersVIP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4933E3B12872309200099949 /* Build configuration list for PBXNativeTarget "CharactersMVP" */;
+			buildConfigurationList = 4933E3B12872309200099949 /* Build configuration list for PBXNativeTarget "CharactersVIP" */;
 			buildPhases = (
 				4933E39F2872309100099949 /* Sources */,
 				4933E3A02872309100099949 /* Frameworks */,
@@ -205,7 +205,7 @@
 			);
 			dependencies = (
 			);
-			name = CharactersMVP;
+			name = CharactersVIP;
 			packageProductDependencies = (
 				4990353628BD61140025A603 /* APIManager */,
 				4990353828BD61140025A603 /* RealmManager */,
@@ -229,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4933E39E2872309100099949 /* Build configuration list for PBXProject "CharactersMVP" */;
+			buildConfigurationList = 4933E39E2872309100099949 /* Build configuration list for PBXProject "CharactersVIP" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,7 +244,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4933E3A22872309100099949 /* CharactersMVP */,
+				4933E3A22872309100099949 /* CharactersVIP */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +275,7 @@
 				4991706D28BD5703009C0D2E /* CharactersViewConfigurator.swift in Sources */,
 				49AEF18928BCE1D6009D3AB5 /* DisplayCharactersInteractor.swift in Sources */,
 				4933E3C528724BA000099949 /* CharactersNetworkWorker.swift in Sources */,
-				4933E3A72872309100099949 /* CharactersMVPApp.swift in Sources */,
+				4933E3A72872309100099949 /* CharactersVIPApp.swift in Sources */,
 				49AEF18728BCDF77009D3AB5 /* DisplayCharactersModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,7 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CharactersMVPApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CharactersVIPApp/Preview Content\"";
 				DEVELOPMENT_TEAM = HPQTL9HB22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -418,7 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aparc.CharactersMVP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aparc.CharactersVIP;
 				PRODUCT_NAME = "characters-mvp-app";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -433,7 +433,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CharactersMVPApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CharactersVIPApp/Preview Content\"";
 				DEVELOPMENT_TEAM = HPQTL9HB22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -447,7 +447,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aparc.CharactersMVP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aparc.CharactersVIP;
 				PRODUCT_NAME = "characters-mvp-app";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -458,7 +458,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4933E39E2872309100099949 /* Build configuration list for PBXProject "CharactersMVP" */ = {
+		4933E39E2872309100099949 /* Build configuration list for PBXProject "CharactersVIP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4933E3AF2872309200099949 /* Debug */,
@@ -467,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4933E3B12872309200099949 /* Build configuration list for PBXNativeTarget "CharactersMVP" */ = {
+		4933E3B12872309200099949 /* Build configuration list for PBXNativeTarget "CharactersVIP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4933E3B22872309200099949 /* Debug */,

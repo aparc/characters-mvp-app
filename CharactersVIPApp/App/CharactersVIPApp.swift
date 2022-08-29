@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CharactersMVPApp: App {
+struct CharactersVIPApp: App {
 	
     var body: some Scene {
         WindowGroup {

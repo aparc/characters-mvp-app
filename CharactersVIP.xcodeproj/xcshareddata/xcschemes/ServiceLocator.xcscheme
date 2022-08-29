@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4933E3A22872309100099949"
                BuildableName = "characters-mvp-app.app"
-               BlueprintName = "CharactersMVP"
-               ReferencedContainer = "container:CharactersMVP.xcodeproj">
+               BlueprintName = "CharactersVIP"
+               ReferencedContainer = "container:CharactersVIP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,8 +46,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4933E3A22872309100099949"
             BuildableName = "characters-mvp-app.app"
-            BlueprintName = "CharactersMVP"
-            ReferencedContainer = "container:CharactersMVP.xcodeproj">
+            BlueprintName = "CharactersVIP"
+            ReferencedContainer = "container:CharactersVIP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4933E3A22872309100099949"
             BuildableName = "characters-mvp-app.app"
-            BlueprintName = "CharactersMVP"
-            ReferencedContainer = "container:CharactersMVP.xcodeproj">
+            BlueprintName = "CharactersVIP"
+            ReferencedContainer = "container:CharactersVIP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
