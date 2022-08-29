@@ -14,8 +14,8 @@
 		4933E3C528724BA000099949 /* CharactersNetworkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933E3C428724BA000099949 /* CharactersNetworkWorker.swift */; };
 		4933E3C7287251E200099949 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933E3C6287251E200099949 /* Character.swift */; };
 		4933E3CC287254BE00099949 /* Character+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933E3CB287254BE00099949 /* Character+Identifiable.swift */; };
-		4990353328BD5B9A0025A603 /* RealmManager in Frameworks */ = {isa = PBXBuildFile; productRef = 4990353228BD5B9A0025A603 /* RealmManager */; };
-		4990353528BD5B9D0025A603 /* APIManager in Frameworks */ = {isa = PBXBuildFile; productRef = 4990353428BD5B9D0025A603 /* APIManager */; };
+		4990353728BD61140025A603 /* APIManager in Frameworks */ = {isa = PBXBuildFile; productRef = 4990353628BD61140025A603 /* APIManager */; };
+		4990353928BD61140025A603 /* RealmManager in Frameworks */ = {isa = PBXBuildFile; productRef = 4990353828BD61140025A603 /* RealmManager */; };
 		4991706D28BD5703009C0D2E /* CharactersViewConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4991706C28BD5703009C0D2E /* CharactersViewConfigurator.swift */; };
 		49AEF18228BCDD91009D3AB5 /* CharacterDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AEF18128BCDD91009D3AB5 /* CharacterDataStore.swift */; };
 		49AEF18728BCDF77009D3AB5 /* DisplayCharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AEF18628BCDF77009D3AB5 /* DisplayCharactersModel.swift */; };
@@ -48,8 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4990353328BD5B9A0025A603 /* RealmManager in Frameworks */,
-				4990353528BD5B9D0025A603 /* APIManager in Frameworks */,
+				4990353928BD61140025A603 /* RealmManager in Frameworks */,
+				4990353728BD61140025A603 /* APIManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +207,8 @@
 			);
 			name = CharactersMVP;
 			packageProductDependencies = (
-				4990353228BD5B9A0025A603 /* RealmManager */,
-				4990353428BD5B9D0025A603 /* APIManager */,
+				4990353628BD61140025A603 /* APIManager */,
+				4990353828BD61140025A603 /* RealmManager */,
 			);
 			productName = ServiceLocator;
 			productReference = 4933E3A32872309100099949 /* characters-mvp-app.app */;
@@ -479,13 +479,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4990353228BD5B9A0025A603 /* RealmManager */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RealmManager;
-		};
-		4990353428BD5B9D0025A603 /* APIManager */ = {
+		4990353628BD61140025A603 /* APIManager */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = APIManager;
+		};
+		4990353828BD61140025A603 /* RealmManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealmManager;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
